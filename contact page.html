@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="icon" href="profile.jpg" type="desktop/jpg">
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(0, 0, 0); /* Changed to black */
+            color: rgb(0, 0, 0); /* Added to make text visible on black background */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            background-color: #ffffff; /* Darker container for contrast */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(173, 171, 171, 0.1); /* Adjusted shadow for dark background */
+            width: 300px;
+        }
+
+        .avatar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .avatar img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid #555; /* Darker border */
+        }
+
+        .info p {
+            margin: 10px 0;
+        }
+
+        .info input[type="text"],
+        .info input[type="email"],
+        .info input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #555;
+            background-color: #444; /* Darker input background */
+            color: white;
+            border-radius: 4px;
+            box-sizing: border-box; /* Important for consistent sizing */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CONTACT PAGE</h1>
+        <div class="avatar">
+            <img src="profile.jpg" alt="view" style="max-width: 250%; height: auto;">
+        </div>
+        <div class="info">
+            <p>Name: <input type="text" name="name"></p>
+            <p>Phone Number: <input type="tel" name="phone"></p>
+            <p>Email Address: <input type="email" name="email"></p>
+            <p>Program: <input type="text" name="program"></p>
+            <p>Level: <input type="text" name="level"></p>
+            <p>Index Number: <input type="text" name="index"></p>
+        </div>
+    </div>
+</body>
+</html>
